@@ -12,9 +12,21 @@
 </head>
 <body>
     <main class="app">
+        <div class="bouncing-blobs-container">
+            <div class="bouncing-blobs-glass"></div>
+            <div class="bouncing-blobs">
+              <div class="bouncing-blob bouncing-blob--blue"></div>
+              <div class="bouncing-blob bouncing-blob--blue"></div>
+              <div class="bouncing-blob bouncing-blob--blue"></div>
+              <div class="bouncing-blob bouncing-blob--white"></div>
+              <div class="bouncing-blob bouncing-blob--purple"></div>
+              <div class="bouncing-blob bouncing-blob--purple"></div>
+              <div class="bouncing-blob bouncing-blob--pink"></div>
+            </div>
+          </div>
         <section class="greeting">
             <h2 class="title">
-                What's up, <input type="text" id="name" placeholder="Name here">!
+                What's up, <input type="text" id="name" placeholder="Name here">
             </h2>
         </section>
         <section class="create-todo">
@@ -55,7 +67,7 @@
         <section class="todo-list">
             <h3>TODO LIST</h3>
             <div class="list" id="todo-list">
-                <div class="todo-item">
+                <!--<div class="todo-item done">
                     <label>
                         <input type="checkbox"/>
                         <span class="bubble business"></span>
@@ -80,9 +92,9 @@
                         <button class="edit">Edit</button>
                         <button class="delete">Delete</button>
                     </div>
-                </div>
+                </div>-->
             </div>
     </main>
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>
