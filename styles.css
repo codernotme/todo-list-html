@@ -1,0 +1,40 @@
+:root{
+    --primary: #1AB8DB;
+    --business: #5BFFDC;
+    --personal: var(--primary);
+    --light: #f3f3f3;
+    --dark: #3c2623;
+    --danger: #ff5b57;
+
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+    --business-glow: 0px 0px 4px rgba(91, 255, 220, 0.75);
+    --personal-glow: 0px 0px 4px rgba(28, 184, 219, 0.75);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto','open-sans',sans-serif;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background:none;
+    cursor: initial;
+}
+
+body{
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
